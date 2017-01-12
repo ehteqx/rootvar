@@ -6,7 +6,7 @@ All rights reserved.
 
 This software was produced by Emanuele Ballarin (hereinafter simply "the author"), from an already-existing codebase maintained by Prof. Giuseppe Della Ricca <<dellaricca@units.it>> which may not be entirely publicly available, during an internship at INFN Trieste that took place in Spring 2017. It is maintained by Emanuele Ballarin as a hobby project and in no official way whatsoever. People who were or are granted special licensee status by the author may have rights to use, reproduce, and distribute this software under different terms and through different channels even if not publicly notified.
 NEITHER THESE PEOPLE, THE AUTHOR, NOR ANY OTHER CONTRIBUTOR MAKE ANY WARRANTY, EXPRESS OR IMPLIED, OR ASSUMES ANY LIABILITY FOR THE USE OF THIS SOFTWARE.
-If software is modified to produce derivative works, such modified software should be clearly marked, so as not to confuse it with the version available from the author, the original authors of the codebase and all the other contributors or special licensees.
+If software is modified to produce derivative works, such modified software should be clearly marked, so as not to confuse it with the version available from the author, the original authors of the codebase or all the other contributors or special licensees.
 
 Additionally, redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
