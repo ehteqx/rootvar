@@ -14,7 +14,7 @@ COMPATIBILITY NOTICE: At the time of the writing (01/03/2017), the code in this 
 Prof. Giuseppe Della Ricca (internship tutor)'s website: <<https://wwwusers.ts.infn.it/~dellaric/>>
 
 CERN's ROOT website: <<https://root.cern.ch/>>  
-INFN website: <<http://http://home.infn.it/>>  
+INFN website: <<http://home.infn.it/>>  
 INFN - Sezione di Trieste website: <<https://www.ts.infn.it/>>  
 University of Trieste website: <<https://www.units.it/>>  
 University of Trieste - Department of Physics website: <<https://df.units.it/>>
