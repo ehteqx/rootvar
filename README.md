@@ -9,6 +9,8 @@ The license in its entirety is available in Markdown language within the LICENSE
 
 COMPATIBILITY NOTICE: At the time of the writing (01/03/2017), the code in this repository has been developed - and is expected to work - with ROOT 6.09/01 (master@v6-09-01-1028-g5e8b2f4b45) as compiled on 13/01/2017 UTC+1. Backward compatibility with ROOT 5 is likely not available, while forward compatibility with ROOT 6 is not guaranteed but expected.
 
+NOTICE ABOUT PYTHON: As far as Python is concerned (mainly due to the ROOT-Python integration offered by the PyROOT and JupyROOT packages), due to stability and compatibility issues, compatibility is guaranteed only for ROOT 6.06 and onwards working together with Python 2.x (NOT Python 3.x). Intel Distribution for Python (2.x) works just fine.
+
 ---
 
 Prof. Giuseppe Della Ricca (internship tutor)'s website: <<https://wwwusers.ts.infn.it/~dellaric/>>
