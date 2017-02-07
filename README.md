@@ -7,7 +7,7 @@ Eventual software maintainance after 31/05/2017 UTC+1 should be considered as pa
 The software is licensed to the general public according to a custom BSD-ish license, inspired by that used by Los Alamos National Laboratories' open sourced projects.  
 The license in its entirety is available in Markdown language within the LICENSE.md file contained in the same directory as this one.
 
-COMPATIBILITY NOTICE: At the time of the writing (01/03/2017), the code in this repository has been developed - and is expected to work - with ROOT 6.09/01 (heads/master@v6-09-01-1305-gb3abe7895b) as compiled on 03/02/2017 UTC+1. Backward compatibility with ROOT 5 is likely not available, while backward and forward compatibility with ROOT 6 is not guaranteed but expected.
+COMPATIBILITY NOTICE: At the time of the writing (01/03/2017), the code in this repository has been developed - and is expected to work - with ROOT 6.09/01 (heads/master@v6-09-01-1375-gd5b9f26) as compiled on 07/02/2017 UTC+1. Backward compatibility with ROOT 5 is likely not available, while backward and forward compatibility with ROOT 6 is not guaranteed but expected.
 
 NOTICE ABOUT PYTHON: As far as Python is concerned (in particular the ROOT-Python integration offered by the PyROOT and JupyROOT packages), due to stability and compatibility issues, compatibility is guaranteed only for ROOT 6.06 and onwards working together with Python 2.x (NOT Python 3.x). Intel Distribution for Python (2.x) was used as the default Python environment for this project.
 
