@@ -26,5 +26,4 @@ void switchtest() {
 				break;
 		}
 	}
-
 }

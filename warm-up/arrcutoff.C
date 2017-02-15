@@ -18,10 +18,13 @@ void arrcutoff() {
 	long double cutoff;							// This way, OTF computation is impossible
 	cin >> cutoff;
 
-	long long counter = 0
+	long long counter = 0;
 
-	// To be concluded... //
+	for(long long j=0;j<upbound;j++) {
+		if(array[j]>=10.0) {
+			counter = counter + 1;
+		}
+	}
 
-
-
+	cout << "The number of entries equal to or less than " << cutoff << " is " << counter << endl;
 }
