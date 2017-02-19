@@ -1,6 +1,9 @@
 // ROOT 6 using C++11
 // This macro is an exercise about pointers, with no other practical purpose
 
+#include "Riostream.h"
+using namespace std;
+
 void pointerstest() {
 
 	// DEFINITIONS
