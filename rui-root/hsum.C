@@ -2,6 +2,8 @@
 #include "TH1F.h"
 #include "TRandom.h"
 #include "TCanvas.h"
+#include "TAttFill.h"
+#include "RtypesCore.h"
 
 void hsum(){
 
@@ -19,16 +21,16 @@ void hsum(){
   total->SetMarkerStyle(21);
   total->SetMarkerSize(0.7);
   main->SetFillColor(16);
-  s1->SetFillColor(42);
-  s2->SetFillColor(46);
- 
+  s1->SetFillColor(43);
+  s2->SetFillColor(47);
+
   // Fill histograms randomly
-  gRandom->SetSeed();  
+  gRandom->SetSeed();
 
   // Set the random generator seed. Note that default value is zero, which is
-  // different than the default value used when constructing the class.  
-  // If the seed is zero the seed is set to a random value 
-  // which in case of TRandom depends on the lowest 4 bytes of TUUID 
+  // different than the default value used when constructing the class.
+  // If the seed is zero the seed is set to a random value
+  // which in case of TRandom depends on the lowest 4 bytes of TUUID
   // The UUID will be identical if SetSeed(0) is called with time smaller than 100 ns
   // Instead if a different generator implementation is used (TRandom1, 2 or 3)
   // the seed is generated using a 128 bit UUID. This results in different seeds
@@ -48,11 +50,11 @@ void hsum(){
     total->Fill(xs2,0.2);
     if (i && (i%kUPDATE) == 0) {
       if (i == kUPDATE) {
-	total->Draw("e1p");
-	main->Draw("same");
-	s1->Draw("same");
-	s2->Draw("same");
-	c1->Update();
+    total->Draw("e1p");
+    main->Draw("same");
+    s1->Draw("same");
+    s2->Draw("same");
+    c1->Update();
       }
       c1->Modified();
       c1->Update();

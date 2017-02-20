@@ -41,6 +41,7 @@ dellaricca-root/generators/sinus.C
 dellaricca-root/generators/strline.C
 dellaricca-root/plotters/plot.C
 express-course/01_README.md
+express-course/applications/histogram.C
 rui-root/01_README.md
 rui-root/Exercise1.C
 rui-root/Exercise1b.C
