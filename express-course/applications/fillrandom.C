@@ -1,4 +1,5 @@
 // ROOT 6 Macro
+// This is a copy of codebase/rui-root/macros/fillrandom.C for local experimentation
 
 #include "TROOT.h"
 #include "TF1.h"
