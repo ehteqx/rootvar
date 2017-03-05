@@ -11,13 +11,15 @@
 #include "TF1.h"
 #include "TProfile.h"
 #include "TLegend.h"
+
+
 Bool_t GetAnswer() {
 
   using namespace std;
 
   char  input;
   Bool_t done = kFALSE;
-  TTimer  *timer = new TTimer("gSystem->ProcessEvents();", 50, kFALSE);
+  TTimer  *timer = ::new TTimer("gSystem->ProcessEvents();", 50, kFALSE);
 
   //char varin;
 
@@ -66,7 +68,7 @@ void ReadNtupleDA() {
   TFile *f = new TFile("run_1.root");
   TNtuple *ntuple = (TNtuple*)f->Get("ntuple");
 
-  TCanvas * c1 = new TCanvas("c1","The Ntuple canvas",200,10,700,780);
+  TCanvas * c1 = ::new TCanvas("c1","The Ntuple canvas",200,10,700,780);
   //
   // Inside this canvas, we create 4 pads
   //
